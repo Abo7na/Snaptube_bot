@@ -215,4 +215,4 @@ def format_select(call):
     else:
         bot.send_message(user_id, LANGUAGES[lang_code]["error"])
 
-bot.polling(none_stop=True)
+bot.infinity_pilling()
